@@ -14,36 +14,32 @@
     
     <div id="container" class="row pt-2 pb-4 container mx-auto">
         <div class="col text-center">
-            <button class="btn btn-primary">
+            <button id="btnNewGame" class="btn btn-primary">
                 Nuevo Juego
             </button>
-            <button class="btn btn-success">
+            <button id="btnQueryCard" class="btn btn-success">
                 Pedir carta
             </button>
-            <button class="btn btn-danger">
+            <button id="btnStop" class="btn btn-danger">
                 Detener
             </button>
         </div>
 
 
-        <div class="row container">
+        <div id="container-player" class="row container">
             <div class="col">
                 <h1>Jugador 1 - <small>0</small></h1>
-                <div id="computer-cards">
-                    <img class="carta" src="/assets/cards/10C.png" alt="" >
-                    <img class="carta" src="/assets/cards/10H.png" alt="" >
-                    <img class="carta" src="/assets/cards/2S.png" alt="" >
+                <div id="player-cards">
+                    <!-- <img class="carta" src="/assets/cards/10C.png" alt="" > -->
                 </div>
             </div>
         </div>
 
-        <div class="row container mt-2">
+        <div id="container-machine" class="row container mt-2">
             <div class="col">
                 <h1>Machine - <small>2</small></h1>
-                <div id="player-cards">
-                    <img class="carta" src="/assets/cards/10C.png" alt="" >
-                    <img class="carta" src="/assets/cards/10H.png" alt="" >
-                    <img class="carta" src="/assets/cards/2S.png" alt="" >
+                <div id="machine-cards">
+                    <!-- <img class="carta" src="/assets/cards/10C.png" alt="" > -->
                 </div>
             </div>
         </div>
